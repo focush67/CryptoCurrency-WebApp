@@ -1,0 +1,43 @@
+
+.suggestion-container {
+  position: absolute;
+  top: 60px; 
+  right: 0;
+  color: white;
+  max-height: 200px; 
+  overflow: auto; 
+  background-color: rgb(75, 73, 73);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+.search-container {
+  position: relative;
+}
+
+
+.suggestion-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.suggestion-container ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.searchIcon{
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+.searchIcon:hover{
+  cursor: pointer;
+}
+
